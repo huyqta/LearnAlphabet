@@ -8,11 +8,19 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="edu.mobile.learnalphabet.MainActivity" >
 
-    <ImageButton 
-        android:id="@+id/main_btn_japan"        
-        android:background="@drawable/main_btn_japan"
+    <ImageButton
+        android:id="@+id/select_btn_hiragana"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        />
+        android:background="@drawable/main_btn_japan"
+        android:contentDescription="@string/content_description" />
+
+    <ImageButton
+        android:id="@+id/select_btn_katakana"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/select_btn_hiragana"
+        android:background="@drawable/main_btn_japan"
+        android:contentDescription="@string/content_description" />
 
 </RelativeLayout>
